@@ -8,9 +8,6 @@ a{
     text-decoration: none;
 }
 
-h5{
-    color: black;
-}
 
 .padding{
     padding: 0 125px;
@@ -21,7 +18,7 @@ h5{
 }
 
 .slider-content{
-    width: 532px;
+    width: 20%;
     padding: 48px;
     background-color: #031f30;
 }
@@ -45,6 +42,7 @@ h5{
 .carousel-item img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .card-btn {
@@ -65,6 +63,7 @@ h5{
 .carousel-indicators{
     position: absolute;
     left: -84%;
+    align-items: center;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -86,3 +85,24 @@ h5{
     background-color: rgba(255, 255, 255, .45);
     font-size: 0;
 }
+
+.carousel-handle .carousel-control-prev, .carousel-control-next{
+    top: 90%;
+    left: 20%;
+    cursor: pointer;
+    align-items: unset;
+    width: 19px;
+    display: flex;
+    height: 27px;
+}
+
+.carousel-handle .carousel-control-next{
+    margin-left: 55px;
+    right: inherit;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 1rem;
+}
+
+
