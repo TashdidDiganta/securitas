@@ -135,19 +135,19 @@ body {
 .swiper-pagination-bullet {
     width: 8px!important;
     height: 8px!important;
-    background: rgba(255, 255, 255, .45)!important;
+    background: rgb(255, 255, 255)!important;
     font-size: 0;
 }
 
 .swiper-pagination-bullet-active {
-    margin: 0;
-    color: black;
-    font-size: 9px;
-    line-height: 0;
-    padding-top: 6px;
-    width: 12px !important;
-    height: 12px !important;
-    background: #fff !important;
+	margin: 0;
+	color: black;
+	font-size: 9px;
+	line-height: 9px;
+	width: 12px !important;
+	height: 12px !important;
+	background: #fff !important;
+	padding: 2px;
 }
 
 .swiper-pagination{
