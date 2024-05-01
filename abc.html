@@ -66,68 +66,101 @@
 </head>
 
 <body>
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="slider-item">
-          <div class="slider-content">
-            <h2>Certifying Data Center Professionals</h2>
-            <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
-            <div class="card-btn">
-              <a href="#">Read More</a>
+  <section class="td-slider-area">
+    <div class="container-fluid padding">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
           </div>
-          <div class="slider-img">
-            <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="slider-item">
-          <div class="slider-content">
-            <h2>Certifying Data Center Professionals</h2>
-            <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
-            <div class="card-btn">
-              <a href="#">Read More</a>
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
           </div>
-          <div class="slider-img">
-            <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="slider-item">
-          <div class="slider-content">
-            <h2>Certifying Data Center Professionals</h2>
-            <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
-            <div class="card-btn">
-              <a href="#">Read More</a>
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
           </div>
-          <div class="slider-img">
-            <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="slider-item">
-          <div class="slider-content">
-            <h2>Certifying Data Center Professionals</h2>
-            <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
-            <div class="card-btn">
-              <a href="#">Read More</a>
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
           </div>
-          <div class="slider-img">
-            <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-item">
+              <div class="slider-content">
+                <h2>Certifying Data Center Professionals</h2>
+                <p>Driven by dedication to provide security tailored to meet the challenges in the markets where we operate.</p>
+                <div class="card-btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="slider-img">
+                <img src="assets/img/slider01.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
+  </section>
+  <!-- Swiper -->
+
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -135,6 +168,18 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      freemode:true,
+      centeredSlide:true,
+      loop: true,
+      speed: 2500,
+      allowTouchMove: false,
+      autoplay: {
+          delay: 5,
+          disableOnInteraction: true,
+        },
+
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
